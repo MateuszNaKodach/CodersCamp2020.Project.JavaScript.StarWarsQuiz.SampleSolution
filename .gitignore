@@ -1,4 +1,6 @@
-# Project exclude paths
-/node_modules/
-/.idea/
-/.vscode/
+.idea
+dist
+.cache
+node_modules
+coverage
+.env.local
