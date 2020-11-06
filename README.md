@@ -29,7 +29,7 @@ Zachęcamy do odwiedzenia profili członków zespołu, w celu zapoznania się z 
 ![QuizGameGif](https://drive.google.com/uc?id=1OS08N-_qB9Rvu67j8FhBkF27lV-6c5f4)
 
 ### Demo
-Wersja demonstracyjna aplikacji jest dostępna [TUTAJ](https://nowakprojects.github.io/CodersCamp2020.Project.JavaScript.StarWarsQuiz/).
+Wersja demonstracyjna aplikacji jest dostępna [TUTAJ](https://nowakprojects.github.io/CodersCamp2020.Project.JavaScript.StarWarsQuiz.SampleSolution/).
 
 Powodzenia, niech Moc będzie z Tobą!
 
