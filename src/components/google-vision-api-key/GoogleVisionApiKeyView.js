@@ -2,7 +2,7 @@ import {render} from "../../shared/dom";
 import {InMemoryGoogleVisionApiKey} from "../../infrastructure/InMemoryGoogleVisionApiKey";
 
 const templateHtml = `
-<div id="google-api-key-save" style="display: flex; align-items: center; justify-content: center; margin: 2rem">
+<div id="google-api-key-save" data-testid="google-api-key-save" style="display: flex; align-items: center; justify-content: center; margin: 2rem">
                 <p style="font-size: 1.30rem; margin: 0 1rem 0 0; padding-left: 2rem; color: white;">Google Vision API Key: </p>
                 <label for="google-vision-api-key-input">
                     <input id="google-vision-api-key-input" name="google-vision-api-key-input"

@@ -12,13 +12,13 @@ const templateHtml = ({title, rules}) => `
                 <p id="swquiz-mode-rules-text">${rules}</p>
             </div>
             <div class="sw-quiz-mode-buttons">
-                <button id="swquiz-mode-hall-of-fame-button" class="sw-quiz-mode-button-secondary">Hall of fame</button>
+                <button id="swquiz-mode-hall-of-fame-button" class="sw-quiz-mode-button-secondary" data-testid="hall-of-fame-button">Hall of fame</button>
                 <div style="width: 2rem"></div>
-                <button class="sw-quiz-mode-button-play" id="play-the-game-button">PLAY THE GAME</button>
+                <button class="sw-quiz-mode-button-play" id="play-the-game-button" data-testid="play-the-game-button">PLAY THE GAME</button>
             </div>
         </div>
     </div>
-    <button id="swquiz-settings-button" class="sw-quiz-mode-button-secondary" style="align-self: flex-start; margin-top: 2rem; margin-left: 6rem">Settings</button>
+    <button id="swquiz-settings-button" data-testid="swquiz-settings-button" class="sw-quiz-mode-button-secondary" style="align-self: flex-start; margin-top: 2rem; margin-left: 6rem">Settings</button>
 </div>
 `
 

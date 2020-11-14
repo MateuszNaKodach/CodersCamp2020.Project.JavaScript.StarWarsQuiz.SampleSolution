@@ -5,7 +5,7 @@ export function elementFrom({html}) {
 }
 
 export function render({html, on}){
-  const placeholder = document.querySelector(on)
+  const placeholder = typeof on === "string" ? document.querySelector(on) : on
   const element = elementFrom({html})
   placeholder.parentNode.replaceChild(element,placeholder)
   return element;
